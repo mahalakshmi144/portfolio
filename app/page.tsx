@@ -1,6 +1,6 @@
 "use client";
 
-import Navbar from "../components/Navbar";
+import Navbar from "../../components/Navbar";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -87,6 +87,7 @@ export default function Home() {
         </div>
       </section>
 
+      <a href="/resume.pdf" download className="inline-block mt-6 px-6 py-2 border border-green-500 text-green-400 rounded-lg hover:bg-green-500 hover:text-black transition">Download Resume</a>
 
       {/* CONTACT */}
       <section id="contact" className="scroll-mt-24 text-center p-10">
