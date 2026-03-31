@@ -1,6 +1,6 @@
 "use client";
 
-import Navbar from "../../components/Navbar";
+import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
